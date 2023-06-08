@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family= Francois+One & display=swap') ;
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Francois One', sem serif;
+}
+main{
+    display: flex;
+   
+}
+
+.login{
+    display: flex;
+flex-direction: column;
+align-items: center;
+    width: 100%;
+    max-width: 500px;
+    min-width: 100vh;
+    padding:clamp(35px,8%,70px);
+    /* gap: 5px; */
+    /* background-color: red; */
+
+
+}
+.imagens__logo{
+display: flex;
+align-items: center;
+justify-content:space-evenly ;
+ 
+}
+.imagen__login{
+/* height: 100px; */
+    width:220px;
+    margin-bottom: 25px;
+}
+.fazer__login{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+
+
+}
+.login__label{
+    display: block;
+ font-size: 25px;
+ width: 100%;
+
+ }
+ .input{
+    width: 100%;
+    border:none ;
+    border-radius: 2%;
+   background-color: lightgray;
+   font-size: 0.9em;
+outline: none;
+padding: 25px 10px 10px;
+margin-bottom: 25px;
+font-weight:700;
+
+ }
+
+ .login__icon{
+    display: flex;
+width: 100%;
+gap: 10px;
+margin-top: 20px;
+   }
+   .login__icon img{
+    width: 35px;
+  
+   }
+   .login__icon__icones{
+    width: 33.3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  
+
+   }
+
+ .login__icon .login__icon__icones:nth-child(1){
+    background-color:transparent ;
+ }
+ .login__icon .login__icon__icones:nth-child(2){
+    background-color:transparent;
+}
+.login__icon .login__icon__icones:nth-child(3){
+    background-color:white ;
+
+}
+.login__label__checkbox{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin: 30px 0 40px ;
+    font-weight: 600;
+
+}
+.input__checkbox{
+appearance:none ;
+width: 25px;
+height:25px ;
+background-color:rgba(204, 206, 208, 0.998) ;
+border-radius: 3px;
+
+}
+.login__link{
+text-decoration: none;
+}
+.img__lol{
+
+width:100%;
+    background-image: url('https://images.alphacoders.com/109/1098023.png');
+    background-size: cover;
+  background-position:center ;
+ 
+    flex: 1;
+
+
+  
+   
+}
+/* .img__lol img{
+    height: 100%;
+} */
